@@ -2379,11 +2379,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea749053687acb47b8d5ec7c929502d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sText: {fileID: 1303700497}
-  screen1: {fileID: 1630145166}
-  screen2: {fileID: 1661459960}
-  screen3: {fileID: 1316777439}
-  sUI: {fileID: 1303700495}
+  scoreText: {fileID: 1303700497}
+  startScreen: {fileID: 1630145166}
+  tutorialScreen: {fileID: 1661459960}
+  gameOverScreen: {fileID: 1316777439}
+  scoreUI: {fileID: 1303700495}
 --- !u!114 &2077817621
 MonoBehaviour:
   m_ObjectHideFlags: 0
