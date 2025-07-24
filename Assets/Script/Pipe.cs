@@ -3,7 +3,7 @@ using UnityEngine;
 public class Pipe : MonoBehaviour
 {
     public float moveSpeed = 2f;
-    public float destroyX = -10f;
+    public float destroyX = -5f;
     private bool scored = false;
 
     void Update()

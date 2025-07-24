@@ -14,7 +14,7 @@ public class PipeSpawner : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= spawnRate)
         {
-            DoStuff();
+            SpawnPipe();
             timer = 0f;
         }
     }
@@ -24,9 +24,9 @@ public class PipeSpawner : MonoBehaviour
         enabled = true;
     }
 
-    void DoStuff()
+    void SpawnPipe()
     {
-        float yOffset = Random.Range(-heightVeriable, heightVeriable);
+        float yOffset = 0.5f + Random.Range(-heightVeriable, heightVeriable);
         Vector3 spawnPosition = pipeSpawnPoint.position + Vector3.up * yOffset;
         Instantiate(pipePrefab, spawnPosition, Quaternion.identity);
     }
